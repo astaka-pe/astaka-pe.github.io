@@ -67,6 +67,16 @@ ul li {
     display: inline-block;
 }
 
+.list ol li {
+	counter-increment: cnt;
+    margin-bottom: 10px;
+}
+
+/* .list ol li::before {
+    list-style-position: outside;
+	content: "[" counter(cnt) "] ";
+} */
+
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -148,6 +158,10 @@ html {
 
 .menu .author-content h4 {
     margin-bottom: 0px;
+}
+
+.menu .author-content h6 {
+    color: #fff;
 }
 
 .menu .author-content span {
@@ -360,6 +374,22 @@ button:hover {
     color: #fff;
 }
 
+.white-button-small a {
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: #fff;
+    color: #0f8ccafd;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.white-button-small a:hover {
+    background-color: #0f8ccafd;
+    color: #fff;
+}
 
 /* Left & Right Post */
 
