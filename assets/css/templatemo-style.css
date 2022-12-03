@@ -172,7 +172,7 @@ html {
 }
 
 .menu .social-network {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .menu .social-network ul li {
@@ -198,7 +198,7 @@ html {
 
 .menu .copyright-text {
     position: relative;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .menu .copyright-text p {
@@ -209,6 +209,11 @@ html {
     padding-right: 30px;
     padding-top: 30px;
     font-size: 13px;
+}
+
+.copyright-text img {
+    max-width: 70px;
+    margin-bottom: 20px;
 }
 
 .menu:before,
