@@ -64,9 +64,21 @@ ul {
     list-style: none;
 }
 
+/* ul.normal {
+    padding: 0;
+    margin: 0;
+    list-style: disc;
+} */
+
 ul li {
     display: inline-block;
 }
+/* .normal{
+    display: list-item;
+    list-style-type: square;
+    margin-top: 0em;
+    margin-bottom: 0em;
+} */
 
 .list ol li {
 	counter-increment: cnt;
@@ -106,7 +118,8 @@ html {
     clear: both;
 }
 
-.container {
+.margin-top: 0;
+    margin-bottom: 0; {
     margin: 0 auto;
 }
 
@@ -447,6 +460,18 @@ button:hover {
 
 .service-item p {
     transition: all 0.5s;
+}
+
+.service-item li{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: list-item;
+    list-style-type: none!important;
+}
+
+.service-item li i{
+    padding-right: 10px;
+    /* color: skyblue; */
 }
 
 .service-item:hover {
