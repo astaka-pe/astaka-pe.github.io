@@ -710,10 +710,13 @@ figure.snip1321.hover:after {
 }
 
 table {
-    width: 500px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+
+table td {
+    padding: 2px 10px;
 }
 
 /* Contact Me */
