@@ -447,6 +447,16 @@ button:hover {
     padding-right: 5px;
 }
 
+.my-services .col-md-3 {
+    display: flex;
+    align-items: center;
+}
+
+.my-services .col-md-8 {
+    display: flex;
+    align-items: center;
+}
+
 .service-item {
     margin-bottom: 10px;
     padding: 50px;
@@ -490,41 +500,49 @@ button:hover {
     width: 70px;
     height: 70px;
     display: inline-block;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.5s;
 }
 
-.service-item .first-service-icon {
+.service-item .cam-service-icon {
+    background-image: url(../images/cam-icon-white.png);
+}
+
+.service-item:hover .cam-service-icon {
+    background-image: url(../images/cam-icon-blue.png);
+}
+
+.service-item .cv-service-icon {
     background-image: url(../images/cv-icon-white.png);
 }
 
-.service-item:hover .first-service-icon {
+.service-item:hover .cv-service-icon {
     background-image: url(../images/cv-icon-blue.png);
 }
 
-.service-item .second-service-icon {
+.service-item .deep-service-icon {
     background-image: url(../images/dl-icon-white.png);
 }
 
-.service-item:hover .second-service-icon {
+.service-item:hover .deep-service-icon {
     background-image: url(../images/dl-icon-blue.png);
 }
 
-.service-item .third-service-icon {
+.service-item .mesh-service-icon {
     background-image: url(../images/gp-icon-white.png);
 }
 
-.service-item:hover .third-service-icon {
+.service-item:hover .mesh-service-icon {
     background-image: url(../images/gp-icon-blue.png);
 }
 
-.service-item .fourth-service-icon {
+.service-item .opt-service-icon {
     background-image: url(../images/mo-icon-white.png);
 }
 
-.service-item:hover .fourth-service-icon {
+.service-item:hover .opt-service-icon {
     background-image: url(../images/mo-icon-blue.png);
 }
 
