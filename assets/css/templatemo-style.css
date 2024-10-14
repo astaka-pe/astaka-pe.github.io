@@ -709,6 +709,12 @@ figure.snip1321.hover:after {
   opacity: 0.9;
 }
 
+table {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 
 /* Contact Me */
 
