@@ -710,8 +710,7 @@ figure.snip1321.hover:after {
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     text-align: left;
 }
 
